@@ -1,0 +1,8 @@
+A mutation is when a gene is changed in an organism by accident, for better or for worse.
+there are 2 types, Gene Mutation and Chromosomal Mutation. Gene Mutation affects the normal base sequence of the gene, and Chromosomal mutation affects a large chunk of a chromosome, and is created during meosis.
+
+Cancer:
+any cell may have a mutation. if it is a body cell (not a sex cell), it can result in cancer (it may sometimes divide incredibly fast). 
+- cancer cells do not recieve the normal signals from the body to stop growing when they should.
+- the chromosomes also will not be created properly, resulting in  weird cells. 
+- they have no clear purpose (not specialized), so they do not do the same things as cells around them. this can create useless chunks of cells.

@@ -1,0 +1,2 @@
+The idea here is that a trait will be passed on from parent 
+to child, and the trait will be unchanged. it may be passed on to a child, but not show up, if it is a recessive trait. even if it does not show up in the child, it can still be passed on to the children of that.

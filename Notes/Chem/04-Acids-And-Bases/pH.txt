@@ -1,0 +1,10 @@
+the pH scale is a logarithmic scale (which means it goes up/down 1 it is 10x more/less than the the one before it.)
+7 is neutral
+above seven is basic
+below seven is acidic
+
+this means that an acid with a ph of 3 is 10X stronger than one with a pH of 4.
+
+an indicator is often used to determine a compound's pH. Litmus is used most commonly. if the litmus paper turns red after being put in a compound, then it is acidic. id it is blue, then it is basic.
+
+there are also many other ways of telling the pH, including other substances, and meters.

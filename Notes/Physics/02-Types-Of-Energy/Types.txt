@@ -1,0 +1,23 @@
+there are several ways we produce energy, some are considered renewable, some are not.
+
+NON-RENEWABLE:
+
+fossil fuels:
+  fossil fuels are the main source of eenrgy for us. they are very polluting and not good for the earth, and we are doomed to run out of them.
+
+nuclear:
+  it is much more clean and long lasting than fossil fuels, but also much more dangerous, as catastrophic accidents have happened. the waste from it can also take years to become not dangerous.
+
+RENEWABLE:
+
+solar:
+  takes energy from the sun. since it wont always be sunny, they require batteries to continue transmitting energy after the sun goes away.
+
+wind:
+   uses turbines to turn wind energy into electricity. it also requires batteries as it will not be windy all the time.
+
+hydro power:
+   uses turbines to turn water from flowing rivers into energy. it releases a fair bit of pollution, when it is being produced.
+
+tidal:
+  not really in use yet, but harnesses power from the tides to turn turbines, which it turns into power.

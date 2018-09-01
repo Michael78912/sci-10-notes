@@ -1,0 +1,20 @@
+if you know the formula of a chemical, then you can identify it as an acid or not. an acid's formula usually start with Hydrogen (H) (if they have a carbon, then C is first)
+many acids only act as acids when they are disolved in water, in which case they are written as aqueus (aq).
+
+To name an acid, follow these rules:
+for an acid with hydrogen + one element: Hydrogen + {element}ide = Hydro{element}ic acid
+(HF(aq) = hydrogen flouride = hydroflouric acid
+for acids with hydrogen and a polyatomic molecule ending in ate:
+Hydrogen + {molecule}ate = Hydro{molecule}ic acid
+for Hydrogen and a polyatomic molecule ending in ite:
+Hydrogen + {molecule}ite = {molecule}ous acid
+
+Properties:
+ acids taste sour
+ many will burn your skin
+ turn litmus paper blue
+ phenolphtalein is colourless in acid
+ acids corrode metal
+ conductive
+ pH is < 7
+ form hydrogen ions when dissolved

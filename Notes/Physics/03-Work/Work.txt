@@ -1,0 +1,21 @@
+Work in physics is Force X distance. that is, the force applied to an object in newtons, and how far it was moved. work is measured in JOules.
+
+equation:
+
+            W = Fd
+            ^   ^^
+Work -------+   |+--- Distance
+                |
+              Force
+
+Work is NOT being done, if there is no movement. for example, if you are pushing a wall, but it is not moving, no matter how much force you put on it, you are not doing work.
+
+
+to calculate work, just to the force (in newtons) X the distance (in meters).
+
+Gravity:
+ gravity is also a force, and it is very easy to calculate:
+                           F = mg
+where m is the mass of the object (kg)
+g = 9.8 m/s² (the gravitational constant of earth)
+F is the weight of the object

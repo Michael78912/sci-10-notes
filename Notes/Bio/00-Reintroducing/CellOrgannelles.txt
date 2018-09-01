@@ -1,0 +1,58 @@
+Organnelles and what they do:
+
+Animal/Plant cells:
+    Cell Membrane: A layer that protects and surrounds cells.
+    it controls substances that flow in and out the cell.
+    
+    Nucleus: Controls activities in the cell and cell
+    reproduction. It contains deoxyribonucleic acid (DNA), which
+    determines traits that are passed on when a cell reproduces.
+    
+    Ribosomes: These assemble or produce proteins in the cell.
+    Some Are attached to the endoplasmic reticulum and some
+    float freely in the cytoplasm.
+
+    Cytoplasm: A gel-like fluid inside the cell. It contains
+    water, other substances, and all the cell organelles.
+
+    Mitochondrion: The plural is mitochondria. Here the cell 
+    produces energy using the process of cellular respiration.
+    (cellular respiration): 
+        glucose + oxygen -> Carbon Dioxide, Water, Energy.
+
+    EndoPlasmic Reticulum: Folded membranes that act as channels 
+    to transport proteins and other materials through the 
+    cytoplasm.
+
+    Golgi Body: Recieves proteins from the endoplasmic reticulum,
+    sorts them, and packages them into little bag-like structures
+    called vesicles.
+
+    Vacules: Structures that temporarily store water, other
+    substances, and wastes in cells. Vacooules in plant cells are 
+    usually much larger than those in animal cells.
+
+    Vesicles: Membrane covered structures that carry proteins, 
+    water, and nutrients around the cell and in and out of the
+    cell.
+
+    Lysosomes: structures that contain digestive chemicals like 
+    enzymes, which break down and recycle worn-out organelles.
+
+Animal cell only:
+    Cilia: Tiny hair like structures attached to the body of some 
+    cells. they can move together in a wave like fashion and help
+    the cell move around.
+
+    Flagellum: a lash-like structure attached to the body of some 
+    cells. They can whip back and forth to help the cell swim 
+    through liquid.
+
+Plant cell only:
+    Cell Wall (also in bacteria): A tough layer outside the cell
+    membrane. It can be rigid, which helps a plant cell hold its
+    shape. It also protects the cell.
+
+    Chloroplasts: Do photosynthesis.
+    (Photosynthesis):
+         carbon dioxide + water + energy -> Sugar, oxygen

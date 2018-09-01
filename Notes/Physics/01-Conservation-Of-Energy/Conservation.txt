@@ -1,0 +1,6 @@
+Energy is conserved: this means that energy never disappears/appears randomly. it is only ever converted into different forms.
+
+we say a product has a certain amount of efficiency. that is, that percent is turned into the energy that we want.
+for example:
+
+ a good old incandescent lightbulb way back from ye olden days had about 10% efficeincy. 10% of the energy was turned into light (which we want from a lightbulb, if you didnt know that) and 90% was turned into heat.
