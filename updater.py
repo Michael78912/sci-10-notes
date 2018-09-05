@@ -1,3 +1,4 @@
+#cython: language_level=3, boundscheck=False
 from urllib.request import urlopen
 import sys
 import os
@@ -25,19 +26,30 @@ HOME = os.environ['UserProfile' if os.name == 'nt' else 'HOME']
 FROZEN = getattr(sys, 'frozen', False)
 FILE = sys.executable if FROZEN else __file__
 
-# get the current version
-with open(os.path.join(os.path.dirname(FILE), 'VERSION')) as F:
-    CURRENT = F.read().strip()
-
 # get the (possibly) updated version
 with urlopen('https://raw.githubusercontent.com/Michael78912/sci-10-notes/master/VERSION') as F:
     NEXT = F.read().decode().strip()
+
+# get the current version
+try:
+    with open(os.path.join(HOME, '.VERSION')) as F:
+        CURRENT = F.read().strip()
+except FileNotFoundError:
+    # chances are, this was just downloaded.
+    # download it anyway.
+    CURRENT = ""
 
 def main():
     # set foreground colour to green
     sys.stdout.write(colorama.Fore.GREEN)
     
-    print('version %s is available. update? (y/n): ' % NEXT, end='')
+    if NEXT:
+        print('version %s is available. update? (y/n): ' % NEXT, end='')
+    else:
+        print(colorama.Fore.YELLOW,
+              """the version file was not found.
+you are most likely using this as an installer, rather than an update.
+install? (y/n)""", colorama.Fore.GREEN)
     choice = input().lower()
     # choice must be y or n
     while choice not in 'yn':
@@ -83,6 +95,10 @@ def copytree(src, dest):
             shutil.copyfile(s, d)
         
 def update():
+    global path
+    # put version in version file in home
+    with open(os.path.join(HOME, '.VERSION'), 'w') as openfile:
+        openfile.write(NEXT)
     # remove previous installation
     # copy the online version of branch master
     # to the temporary directory
@@ -109,7 +125,7 @@ def update():
     print('install to where? default is desktop: ({})'.format(desktop_dir), end='')
     path = os.path.join((input() or desktop_dir), 'Notes')
 
-    if not os.path.isdir(path):
+    if not os.path.isdir(path[0:-len('Notes')]):
         sys.stdout.write(colorama.Fore.RED)
         print('Fatal: directory does not exist!')
         sys.stdout.write(colorama.Style.RESET_ALL)
@@ -123,16 +139,25 @@ def update():
         shutil.rmtree(path)
     except FileNotFoundError:
         pass
-    copytree(src, path)
+    try:
+        copytree(src, path)
+    except PermissionError:
+        # this sometimes happens, i dont know why, but
+        # it is not a big deal
+        pass
     print("copying updater ({})".format(FILE))
     shutil.copy(FILE, 'Notes')
     print('installed successfully! :) YAY')
 
     print('checking if this installation is a different place...')
     if os.path.dirname(FILE) != path:
-        print(colorama.Fore.YELLOW, 'It is... removing this installation...',
-              colorama.Fore.GREEN)
-        shutil.rmtree(os.path.dirname(FILE))
+        if os.path.dirname(FILE).endswith('Notes'):
+            print(colorama.Fore.YELLOW, 'It is... removing this installation...',
+                  colorama.Fore.GREEN)
+            
+            shutil.rmtree(os.path.dirname(FILE))
+        else:
+            print('installation not found.')
     else:
         print('Same location, all good.')
     
@@ -145,8 +170,9 @@ def update():
 
 
 if __name__ == '__main__':
+    dirname = os.path.dirname(FILE)
     if NEXT != CURRENT: main()
-    else: posix_opt() if os.name == 'posix' else nt_opt()
+    else: posix_opt(dirname) if os.name == 'posix' else nt_opt(dirname)
 
 
     
